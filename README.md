@@ -47,7 +47,7 @@ To run or modify the project in a development environment:
 
 1.  **Clone the repository:**
     ```sh
-    git clone <YOUR_REPO_URL>
+    git clone https://github.com/bc1pzzfnxl/TubeStealer
     cd python_ytb_mp3_download
     ```
 
