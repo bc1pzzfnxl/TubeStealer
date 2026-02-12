@@ -13,6 +13,27 @@ A user-friendly desktop application to batch download YouTube videos as high-qua
 - **Drag & Drop**: Easily select your links file by dragging it onto the application window.
 - **Standalone Executable**: Can be packaged into a single executable file for easy distribution.
 
+## Synergy with TubeFile
+
+This project works in perfect harmony with [**TubeFile**](https://github.com/bc1pzzfnxl/TubeFile), my browser extension designed to quickly collect YouTube links.
+
+The workflow is straightforward:
+
+1.  **Collect:** Use **TubeFile** to create your list of video links on YouTube.
+2.  **Export:** Export your list to a `links.txt` file.
+3.  **Download:** Drag and drop `links.txt` into **TubeStealer** to batch download your selection.
+
+## Who is this for?
+
+This tool is perfect for **amateur DJs** and music enthusiasts building a library for **private practice** or **house parties**.
+
+It’s an ideal solution for:
+-   **Bedroom DJs** practicing transitions and sets.
+-   **Curating playlists** for offline listening.
+-   **Testing tracks** before purchasing high-quality versions for professional gigs.
+
+**⚠️ Legal Disclaimer:** This tool is intended for **private, non-commercial use only**. Please support artists by purchasing their music for public performance or commercial use. Respect copyright laws in your jurisdiction.
+
 ## Technical Stack
 
 - **Python 3.8+**
@@ -134,4 +155,18 @@ You can package the application into a single standalone executable using **PyIn
 └───README.md         # This file
 ```
 
-Feel free to open issues or contribute!
+## Author
+
+-   **@bc1pzzfnxl** ([X/Twitter](https://x.com/bc1pzzfnxl))
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0 (GPLv3)**.
+
+You are free to use, modify, and distribute this software, but **all modifications must remain open-source**.
+If you use this code in a commercial application, that application must also be open-source under GPLv3.
+
+**Note on Third-Party Libraries:**
+This project uses **FFmpeg**, which is licensed under the LGPL v2.1+ (or GPL v2+ depending on build configuration).
+The inclusion of FFmpeg binaries or linking against FFmpeg libraries requires compliance with its respective license.
+See the [FFmpeg License](https://ffmpeg.org/legal.html) for more details.
